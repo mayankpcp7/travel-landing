@@ -4,6 +4,7 @@
     margin: 0 !important;
     padding: 0 !important;
     text-decoration: none !important;
+    list-style-type: none !important;
     box-sizing: border-box !important;
 }
 
@@ -93,15 +94,55 @@
     border: 2px solid white;
 }
 
+.bg-img {
+    background-image: url(/assets/m-images/png/Intersect.png);
+    background-size: 100% 100%;
+}
 
+.max-width-415px {
+    max-width: 385px;
+}
 
+.width-450px {
+    min-width: 450px;
+}
+
+.outline-0 {
+    outline: none;
+}
+
+input::placeholder {
+    font-family: "inter";
+    font-size: 14px;
+    color: #BDBFC0;
+
+}
+
+.max-width-141px {
+    max-width: 141px;
+}
+
+.startn50 {
+    left: -10%;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+.line-height-66{line-height: 66px;}
 
 @media(min-width:1440px) {
     .my-container {
-        max-width: 1440px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
+       max-width: 1440px !important;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       padding-left: 12px !important;
+       padding-right: 12px !important;
+    }
+}
+
+@media(max-width:600px) {
+    .width-450px {
+        min-width: 200px;
     }
 }
