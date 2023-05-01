@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Sen:wght@400;700;800&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+.ff-inter {
+    font-family: "inter";
+}
+
+.ff-poppins {
+    font-family: "poppins";
+}
+
+.ff-sen {
+    font-family: "sen";
+}
+
+.max-width-467px {
+    max-width: 467px;
+}
+
+.max-width-86px {
+    max-width: 86px;
+}
+
+.max-width-115px {
+    max-width: 115px;
+}
+
+.padding-26 {
+    padding-left: 26px !important;
+}
+
+.padding-35 {
+    padding-left: 25px !important;
+}
+
+.padding-28 {
+    padding-left: 35px !important;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.hover-slider:hover circle {
+    fill: black;
+}
+
+.hover-slider:hover path {
+    stroke: white;
+}
+
+.responsive .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+    /* z-index: -1;  */
+}
+
+
+.responsive .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: #FAF8ED;
+}
+
+
+:hover.btn-hover {
+    background-color: #2D3134;
+    color: white;
+}
+
+:hover.box-shadow-2 {
+    box-shadow: 0px 24px 90px 0px #C0BCA138;
+    border: 2px solid white;
+}
+
+
+
+
+@media(min-width:1440px) {
+    .my-container {
+        max-width: 1440px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
