@@ -105,6 +105,24 @@ input[type="checkbox"] {
 }
 
 
+
+.md-w-100 {
+    width: 100%;
+}
+
+:hover.hover-orange path {
+      fill: #F66F4D;  
+    
+    
+}
+:hover.hover-orange circle {
+      stroke: #F66F4D;  
+    
+    
+}
+
+
+
 @media (max-width:1720px) {
     .my_container {
         max-width: 1720px !important;
@@ -126,9 +144,11 @@ input[type="checkbox"] {
         height: 100%;
         top: 0;
         left: -100%;
-        background-color: #b1a2a2;
+        background-color: #ffffff;
         transition: all 1s .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
+
+
 
     label[for="humburger"] {
         width: 40px;
