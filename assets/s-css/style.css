@@ -38,12 +38,12 @@ nav ul li>a {
     position: relative;
 }
 
-nav ul li>a::after {
+ul li a::after {
     content: "";
     position: absolute;
     width: 0%;
     height: 4px;
-    background-color: #2E476B;
+    background-color: #F66F4D;
     bottom: 0;
     left: 50%;
     border-radius: 10px;
@@ -51,7 +51,7 @@ nav ul li>a::after {
 
 }
 
-nav ul li>a:hover::after {
+ul li a:hover::after {
     width: 100%;
     transform: translateX(-50%);
 
@@ -63,9 +63,7 @@ input[type="checkbox"] {
 }
 
 /* ---------------------------------------header-------------------------- */
-.max_w577 {
-    max-width: 577px;
-}
+
 
 .max_w500 {
     max-width: 500px;
@@ -111,14 +109,15 @@ input[type="checkbox"] {
 }
 
 :hover.hover-orange path {
-      fill: #F66F4D;  
-    
-    
+    fill: #F66F4D;
+
+
 }
+
 :hover.hover-orange circle {
-      stroke: #F66F4D;  
-    
-    
+    stroke: #F66F4D;
+
+
 }
 
 
@@ -297,7 +296,6 @@ input[type="checkbox"] {
     }
 
 
-
     label[for="humburger"] {
         width: 40px;
         height: 40px;
@@ -312,12 +310,37 @@ input[type="checkbox"] {
         height: 6px;
         display: flex;
         margin-top: 5px;
-        background-color: #2E476B;
+        background-color: #f3897b;
         border-radius: 10px;
     }
 
     #humburger:checked~.nav_bar {
         left: 0;
     }
+
+}
+
+@media(min-width:992px) {
+    .max_w577 {
+        max-width: 577px;
+    }
+}
+
+.hover-line ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: #F66F4D;
+    bottom: 0;
+    left: 50%;
+    border-radius: 10px;
+    transition: all 300ms linear;
+
+}
+
+.hover-line ul li a:hover::after {
+    width: 100%;
+    transform: translateX(-50%);
 
 }

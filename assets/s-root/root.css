@@ -10,7 +10,7 @@
     --fs-24: 24px;
     --fs-26: 26px;
     --fs-56: 56px;
-    --fs-84: 84px;
+    --fs-84: 70px;
     /* -------------------------color-------------------------- */
     --color-black: #2D3134;
     --color-orange: #F66F4D;
@@ -103,4 +103,37 @@
 
 .bg_body {
     background-color: var(--color-body);
+}
+
+@media(max-width:1200px) {
+    :root {
+        --fs-84: 60px;
+    }
+}
+
+@media(max-width:1200px) {
+    :root {
+        --fs-84: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    :root {
+        --fs-84: 50px;
+
+    }
+
+    
+}
+
+@media(max-width:576px) {
+    :root {
+        --fs-84: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    :root {
+        --fs-56: 40px !important;
+    }
 }

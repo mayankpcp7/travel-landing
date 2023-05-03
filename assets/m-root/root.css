@@ -122,8 +122,10 @@
 @media(max-width:600px) {
     :root {
         --font-40: 30px;
-    }
+       
 
+    }
+.line-height-
 }
 
 @media(max-width:500px) {
@@ -136,6 +138,7 @@
 @media(max-width:576px) {
     :root {
         --font-56: 40px;
+        --font-30: 20px;
     }
 
 }
